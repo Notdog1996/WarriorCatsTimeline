@@ -8,6 +8,8 @@ class Cat:
         current_name: The cat's name as it appears currently in the timeline.
         other_names: List of all the names the cat has had.
         sex: The cat's sex.
+        pelt_color: The color of the cat's pelt.
+        eye_color: The cat's eye color.
         affiliation: The clan they belong to, or None if they're a loner.
         previous_affiliation: Other affiliations the cat had before.
         rank: Their rank in the clan, if they are in one.
@@ -29,6 +31,8 @@ class Cat:
         left_clan: The book in which they left their clan.
         joined_clan: The book in which they joined their clan.
         mentor(s): The cat(s) who had them as an apprentice.
+        killcount: The number of cats they killed.
+        kills: A list of the cats they killed.
         tree: Their direct family tree, including parents, siblings and children."""
 
     def __init__(self):
@@ -38,6 +42,8 @@ class Cat:
         self.current_name = None
         self.other_names = []
         self.sex = None
+        self.pelt_color = None
+        self.eye_color = None
         self.affiliation = None
         self.previous_affiliations = []
         self.rank = None
@@ -59,6 +65,8 @@ class Cat:
         self.left_clan = []
         self.joined_clan = []
         self.mentors = []
+        self.killcount = 0
+        self.kills = []
         self.tree = Tree()
 
 class Tree:

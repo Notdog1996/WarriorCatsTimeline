@@ -59,6 +59,12 @@ Antpelt.prefix = "Ant"
 Antpelt.suffix = "pelt"
 Antpelt.sex = "Male"
 
+AppleBlossom = Cat()
+AppleBlossom.prefix = "Apple"
+AppleBlossom.suffix = " Blossom"
+AppleBlossom.sex = "Female"
+AppleBlossom.pelt_color = "Orange and white"
+
 Ashfur = Cat()
 Ashfur.prefix = "Ash"
 Ashfur.suffix = "fur"
@@ -69,6 +75,7 @@ Bee.sex = "Female"
 
 Beech = Cat()
 Beech.sex = "Female"
+Beech.pelt_color = "Brown tabby"
 
 Beetle = Cat()
 Beetle.sex = "Male"
@@ -86,11 +93,13 @@ BlackEar = Cat()
 BlackEar.prefix = "Black"
 BlackEar.suffix = " Ear"
 BlackEar.sex = "Male"
+BlackEar.pelt_color = "Black and white"
 
 Blackfoot = Cat()
 Blackfoot.prefix = "Black"
 Blackfoot.suffix = "foot"
 Blackfoot.sex = "Male"
+Blackfoot.pelt_color = "Black and white"
 
 Blossom = Cat()
 Blossom.sex = "Female"
@@ -99,6 +108,13 @@ Bluefur = Cat()
 Bluefur.prefix = "Blue"
 Bluefur.suffix = "fur"
 Bluefur.sex = "Female"
+Bluefur.pelt_color = "Blue-gray"
+Bluefur.eye_color = "Blue"
+
+BlueWhisker = Cat()
+BlueWhisker.prefix = "Blue"
+BlueWhisker.suffix = " Whisker"
+BlueWhisker.sex = "Female"
 
 Brackenfur = Cat()
 Brackenfur.prefix = "Bracken"
@@ -112,26 +128,36 @@ Brambleclaw = Cat()
 Brambleclaw.prefix = "Bramble"
 Brambleclaw.suffix = "claw"
 Brambleclaw.sex = "Male"
-
-Brightheart = Cat()
-Brightheart.prefix = "Bright"
-Brightheart.suffix = "heart"
-Brightheart.sex = "Female"
-
-BrightStream = Cat()
-BrightStream.prefix = "Bright"
-BrightStream.suffix = " Stream"
-BrightStream.sex = "Female"
+Brambleclaw.pelt_color = "Brown tabby"
 
 Breezepelt = Cat()
 Breezepelt.prefix = "Breeze"
 Breezepelt.suffix = "pelt"
 Breezepelt.sex = "Male"
+Breezepelt.pelt_color = "Black"
+
+Brightheart = Cat()
+Brightheart.prefix = "Bright"
+Brightheart.suffix = "heart"
+Brightheart.sex = "Female"
+Brightheart.pelt_color = "Orange and white"
+Brightheart.eye_color = "Blue"
+
+BrightStream = Cat()
+BrightStream.prefix = "Bright"
+BrightStream.suffix = " Stream"
+BrightStream.sex = "Female"
+BrightStream.pelt_color = "Brown and white tabby"
 
 BrokenFeather = Cat()
 BrokenFeather.prefix = "Broken"
 BrokenFeather.suffix = " Feather"
 BrokenFeather.sex = "Male"
+
+BubblingStream = Cat()
+BubblingStream.prefix = "Bubbling"
+BubblingStream.suffix = " Stream"
+BubblingStream.sex = "Female"
 
 Bumble = Cat()
 Bumble.sex = "Female"
@@ -140,6 +166,7 @@ Cinderheart = Cat()
 Cinderheart.prefix = "Cinder"
 Cinderheart.suffix = "heart"
 Cinderheart.sex = "Female"
+Cinderheart.pelt_color = "Gray"
 
 Cinderpelt = Cat()
 Cinderpelt.prefix = "Cinder"
@@ -150,27 +177,34 @@ ClearSky = Cat()
 ClearSky.prefix = "Clear"
 ClearSky.suffix = " Sky"
 ClearSky.sex = "Male"
+ClearSky.pelt_color = "Light gray"
+ClearSky.eye_color = "Blue"
 
 CloudSpots = Cat()
 CloudSpots.prefix = "Cloud"
 CloudSpots.suffix = " Spots"
 CloudSpots.sex = "Male"
+CloudSpots.pelt_color = "Black and white"
 
 Cloudtail = Cat()
 Cloudtail.prefix = "Cloud"
 Cloudtail.suffix = "tail"
 Cloudtail.sex = "Male"
+Cloudtail.pelt_color = "White"
 
 Clover = Cat()
 Clover.sex = "Female"
 
 Cricket = Cat()
 Cricket.sex = "Male"
+Cricket.pelt_color = "Orange tabby"
 
 Crowfeather = Cat()
 Crowfeather.prefix = "Crow"
 Crowfeather.suffix = "feather"
 Crowfeather.sex = "Male"
+Crowfeather.pelt_color = "Black"
+Crowfeather.eye_color = "Blue"
 
 CrowMuzzle = Cat()
 CrowMuzzle.prefix = "Crow"
@@ -185,6 +219,12 @@ DancingLeaf = Cat()
 DancingLeaf.prefix = "Dancing"
 DancingLeaf.suffix = " Leaf"
 DancingLeaf.sex = "Male"
+
+DanglingLeaf = Cat()
+DanglingLeaf.prefix = "Dangling"
+DanglingLeaf.suffix = " Leaf"
+DanglingLeaf.sex = "Male"
+DanglingLeaf.pelt_color = "Tortoiseshell"
 
 DappledPelt = Cat()
 DappledPelt.prefix = "Dappled"
@@ -227,6 +267,12 @@ Dovewing.sex = "Female"
 Drizzle = Cat()
 Drizzle.sex = "Female"
 
+DuskNose = Cat()
+DuskNose.prefix = "Dusk"
+DuskNose.suffix = " Nose"
+DuskNose.sex = "Female"
+DuskNose.pelt_color = "Tortoiseshell"
+
 DustMuzzle = Cat()
 DustMuzzle.prefix = "Dust"
 DustMuzzle.suffix = " Muzzle"
@@ -236,6 +282,7 @@ Dustpelt = Cat()
 Dustpelt.prefix = "Dust"
 Dustpelt.suffix = "pelt"
 Dustpelt.sex = "Male"
+Dustpelt.pelt_color = "Brown tabby"
 
 EagleFeather = Cat()
 EagleFeather.prefix = "Eagle"
@@ -244,6 +291,7 @@ EagleFeather.sex = "Male"
 
 Ember = Cat()
 Ember.sex = "Male"
+Ember.pelt_color = "Orange tabby"
 
 Emberkit = Cat()
 Emberkit.prefix = "Ember"
@@ -258,6 +306,7 @@ FallingFeather = Cat()
 FallingFeather.prefix = "Falling"
 FallingFeather.suffix = " Feather"
 FallingFeather.sex = "Female"
+FallingFeather.pelt_color = "Gray and white"
 
 Feathertail = Cat()
 Feathertail.prefix = "Feather"
@@ -268,6 +317,7 @@ FernLeaf = Cat()
 FernLeaf.prefix = "Fern"
 FernLeaf.suffix = " Leaf"
 FernLeaf.sex = "Female"
+FernLeaf.pelt_color = "Black"
 
 Fircone = Cat()
 Fircone.sex = "Male"
@@ -276,11 +326,13 @@ Fireheart = Cat()
 Fireheart.prefix = "Fire"
 Fireheart.suffix = "heart"
 Fireheart.sex = "Male"
+Fireheart.pelt_color = "Orange tabby"
 
 Flametail = Cat()
 Flametail.prefix = "Flame"
 Flametail.suffix = "tail"
 Flametail.sex = "Male"
+Flametail.pelt_color = "Orange tabby"
 
 FlowerFoot = Cat()
 FlowerFoot.prefix = "Flower"
@@ -300,41 +352,63 @@ Frog.sex = "Male"
 
 Frost = Cat()
 Frost.sex = "Male"
+Frost.pelt_color = "White"
+Frost.eye_color = "Blue"
 
 Goldenflower = Cat()
 Goldenflower.prefix = "Golden"
 Goldenflower.suffix = "flower"
 Goldenflower.sex = "Female"
 
+Gooseberry = Cat()
+Gooseberry.prefix = "Goose"
+Gooseberry.suffix = "berry"
+Gooseberry.sex = "Female"
+Gooseberry.pelt_color = "Yellow"
+
 GorseFur = Cat()
 GorseFur.prefix = "Gorse"
 GorseFur.suffix = " Fur"
 GorseFur.sex = "Male"
+GorseFur.pelt_color = "Gray and white"
 
 Graystripe = Cat()
 Graystripe.prefix = "Gray"
 Graystripe.suffix = "stripe"
 Graystripe.sex = "Male"
+Graystripe.pelt_color = "Gray tabby"
 
 GrayWing = Cat()
 GrayWing.prefix = "Gray"
 GrayWing.suffix = " Wing"
 GrayWing.sex = "Male"
+GrayWing.pelt_color = "Gray"
 
 HalfMoon = Cat()
 HalfMoon.prefix = "Half"
 HalfMoon.suffix = " Moon"
 HalfMoon.sex = "Female"
+HalfMoon.pelt_color = "White"
+HalfMoon.eye_color = "Green"
 
 Hawkfrost = Cat()
 Hawkfrost.prefix = "Hawk"
 Hawkfrost.suffix = "frost"
 Hawkfrost.sex = "Male"
+Hawkfrost.pelt_color = "Brown and white tabby"
+Hawkfrost.eye_color = "Blue"
 
 HawkSwoop = Cat()
 HawkSwoop.prefix = "Hawk"
 HawkSwoop.suffix = " Swoop"
 HawkSwoop.sex = "Female"
+HawkSwoop.pelt_color = "Orange and white"
+
+HazelBurrow = Cat()
+HazelBurrow.prefix = "Hazel"
+HazelBurrow.suffix = " Burrow"
+HazelBurrow.sex = "Male"
+HazelBurrow.pelt_color = "Black and white"
 
 HollowTree = Cat()
 HollowTree.prefix = "Hollow"
@@ -348,6 +422,14 @@ Hollyleaf = Cat()
 Hollyleaf.prefix = "Holly"
 Hollyleaf.suffix = "leaf"
 Hollyleaf.sex = "Female"
+Hollyleaf.pelt_color = "Black"
+Hollyleaf.eye_color = "Green"
+
+HoneyPelt = Cat()
+HoneyPelt.prefix = "Honey"
+HoneyPelt.suffix = " Pelt"
+HoneyPelt.sex = "Male"
+HoneyPelt.pelt_color = "Yellow"
 
 Ivypool = Cat()
 Ivypool.prefix = "Ivy"
@@ -358,6 +440,7 @@ JackdawsCry = Cat()
 JackdawsCry.prefix = "Jackdaw's"
 JackdawsCry.suffix = " Cry"
 JackdawsCry.sex = "Male"
+JackdawsCry.pelt_color = "Black"
 
 JaggedPeak = Cat()
 JaggedPeak.prefix = "Jagged"
@@ -376,54 +459,42 @@ JuniperBranch.sex = "Female"
 
 Leaf = Cat()
 Leaf.sex = "Male"
+Leaf.pelt_color = "Black and white"
 
 Leafpool = Cat()
 Leafpool.prefix = "Leaf"
 Leafpool.suffix = "pool"
 Leafpool.sex = "Female"
+Leafpool.pelt_color = "Brown and white tabby"
 
 LightningTail = Cat()
 LightningTail.prefix = "Lightning"
 LightningTail.suffix = " Tail"
 LightningTail.sex = "Male"
+LightningTail.pelt_color = "Black"
 
 Lionblaze = Cat()
 Lionblaze.prefix = "Lion"
 Lionblaze.suffix = "blaze"
 Lionblaze.sex = "Male"
+Lionblaze.pelt_color = "Yellow"
 
 Lionheart = Cat()
 Lionheart.prefix = "Lion"
 Lionheart.suffix = "heart"
 Lionheart.sex = "Male"
+Lionheart.pelt_color = "Yellow"
 
 LionsRoar = Cat()
 LionsRoar.prefix = "Lion's"
 LionsRoar.suffix = " Roar"
 LionsRoar.sex = "Male"
+LionsRoar.pelt_color = "Yellow"
 
 Longtail = Cat()
 Longtail.prefix = "Long"
 Longtail.suffix = "tail"
 Longtail.sex = "Male"
-
-Milkweed = Cat()
-Milkweed.prefix = "Milk"
-Milkweed.suffix = "weed"
-Milkweed.sex = "Female"
-
-Misty = Cat()
-Misty.sex = "Female"
-
-Mistyfoot = Cat()
-Mistyfoot.prefix = "Misty"
-Mistyfoot.suffix = "foot"
-Mistyfoot.sex = "Female"
-
-MistyWater = Cat()
-MistyWater.prefix = "Misty"
-MistyWater.suffix = " Water"
-MistyWater.sex = "Female"
 
 Mapleshade = Cat()
 Mapleshade.prefix = "Maple"
@@ -435,6 +506,30 @@ MeltingIce.prefix = "Melting"
 MeltingIce.suffix = " Ice"
 MeltingIce.sex = "Female"
 
+Micah = Cat()
+Micah.sex = "Male"
+Micah.pelt_color = "Yellow"
+
+Milkweed = Cat()
+Milkweed.prefix = "Milk"
+Milkweed.suffix = "weed"
+Milkweed.sex = "Female"
+Milkweed.pelt_color = "Tortoiseshell"
+
+Misty = Cat()
+Misty.sex = "Female"
+Misty.pelt_color = "Gray and white"
+
+Mistyfoot = Cat()
+Mistyfoot.prefix = "Misty"
+Mistyfoot.suffix = "foot"
+Mistyfoot.sex = "Female"
+
+MistyWater = Cat()
+MistyWater.prefix = "Misty"
+MistyWater.suffix = " Water"
+MistyWater.sex = "Female"
+
 Moonflower = Cat()
 Moonflower.prefix = "Moon"
 Moonflower.suffix = "flower"
@@ -444,6 +539,13 @@ MoonShadow = Cat()
 MoonShadow.prefix = "Moon"
 MoonShadow.suffix = " Shadow"
 MoonShadow.sex = "Male"
+MoonShadow.pelt_color = "Black"
+
+MorningFire = Cat()
+MorningFire.prefix = "Morning"
+MorningFire.suffix = " Fire"
+MorningFire.sex = "Female"
+MorningFire.pelt_color = "Dark brown"
 
 MorningStar = Cat()
 MorningStar.prefix = "Morning"
@@ -459,6 +561,7 @@ MossTail = Cat()
 MossTail.prefix = "Moss"
 MossTail.suffix = " Tail"
 MossTail.sex = "Male"
+MossTail.pelt_color = "Brown tabby"
 
 Mosskit = Cat()
 Mosskit.prefix = "Moss"
@@ -468,6 +571,8 @@ MothFlight = Cat()
 MothFlight.prefix = "Moth"
 MothFlight.suffix = " Flight"
 MothFlight.sex = "Female"
+MothFlight.pelt_color = "White"
+MothFlight.eye_color = "Green"
 
 Mothwing = Cat()
 Mothwing.prefix = "Moth"
@@ -509,6 +614,7 @@ OwlEyes = Cat()
 OwlEyes.prefix = "Owl"
 OwlEyes.suffix = " Eyes"
 OwlEyes.sex = "Male"
+OwlEyes.pelt_color = "Gray"
 
 PebbleHeart = Cat()
 PebbleHeart.prefix = "Pebble"
@@ -517,6 +623,7 @@ PebbleHeart.sex = "Male"
 
 Petal = Cat()
 Petal.sex = "Female"
+Petal.pelt_color = "Yellow"
 
 PineNeedle = Cat()
 PineNeedle.prefix = "Pine"
@@ -536,11 +643,13 @@ Poppyfrost.sex = "Female"
 Princess = Cat()
 Princess.prefix = "Princess"
 Princess.sex = "Female"
+Princess.pelt_color = "Brown and white tabby"
 
 QuickWater = Cat()
 QuickWater.prefix = "Quick"
 QuickWater.suffix = " Water"
 QuickWater.sex = "Female"
+QuickWater.pelt_color = "Gray and white"
 
 QuietRain = Cat()
 QuietRain.prefix = "Quiet"
@@ -560,6 +669,7 @@ RavenPelt.sex = "Male"
 Ravenpaw = Cat()
 Ravenpaw.prefix = "Raven"
 Ravenpaw.sex = "Male"
+Ravenpaw.pelt_color = "Black and white"
 
 RedClaw = Cat()
 RedClaw.prefix = "Red"
@@ -570,6 +680,7 @@ Redtail = Cat()
 Redtail.prefix = "Red"
 Redtail.suffix = "tail"
 Redtail.sex = "Male"
+Redtail.pelt_color = "Tortoiseshell and white"
 
 ReedTail = Cat()
 ReedTail.prefix = "Reed"
@@ -581,6 +692,9 @@ RiverRipple.prefix = "River"
 RiverRipple.suffix = " Ripple"
 RiverRipple.sex = "Male"
 
+Rocky = Cat()
+Rocky.sex = "Male"
+
 Rosetail = Cat()
 Rosetail.prefix = "Rose"
 Rosetail.suffix = "tail"
@@ -590,6 +704,7 @@ Sandstorm = Cat()
 Sandstorm.prefix = "Sand"
 Sandstorm.suffix = "storm"
 Sandstorm.sex = "Female"
+Sandstorm.pelt_color = "Cream tabby"
 
 Sasha = Cat()
 Sasha.sex = "Female"
@@ -597,11 +712,20 @@ Sasha.sex = "Female"
 Scourge = Cat()
 Scourge.prefix = "Scourge"
 Scourge.sex = "Male"
+Scourge.pelt_color = "Black and white"
+Scourge.eye_color = "Blue"
 
 ShadedMoss = Cat()
 ShadedMoss.prefix = "Shaded"
 ShadedMoss.suffix = " Moss"
 ShadedMoss.sex = "Male"
+ShadedMoss.pelt_color = "Black and white"
+
+ShadePelt = Cat()
+ShadePelt.prefix = "Shade"
+ShadePelt.suffix = " Pelt"
+ShadePelt.sex = "Male"
+ShadePelt.pelt_color = "Dappled brown"
 
 SharpHail = Cat()
 SharpHail.prefix = "Sharp"
@@ -612,6 +736,12 @@ ShatteredIce = Cat()
 ShatteredIce.prefix = "Shattered"
 ShatteredIce.suffix = " Ice"
 ShatteredIce.sex = "Male"
+
+ShiveringRose = Cat()
+ShiveringRose.prefix = "Shivering"
+ShiveringRose.suffix = " Rose"
+ShiveringRose.sex = "Female"
+ShiveringRose.pelt_color = "Black"
 
 Shrewpaw = Cat()
 Shrewpaw.prefix = "Shrew"
@@ -636,12 +766,20 @@ SilverStripe = Cat()
 SilverStripe.prefix = "Silver"
 SilverStripe.suffix = " Stripe"
 SilverStripe.sex = "Female"
+SilverStripe.pelt_color = "Gray tabby"
 
 Slash = Cat()
 Slash.sex = "Male"
 
 Slate = Cat()
 Slate.sex = "Female"
+Slate.pelt_color = "Dark gray"
+
+SnailShell = Cat()
+SnailShell.prefix = "Snail"
+SnailShell.suffix = " Shell"
+SnailShell.sex = "Male"
+SnailShell.pelt_color = "Gray"
 
 Snake = Cat()
 Snake.sex = "Male"
@@ -650,6 +788,8 @@ Snowfur = Cat()
 Snowfur.prefix = "Snow"
 Snowfur.suffix = "fur"
 Snowfur.sex = "Female"
+Snowfur.pelt_color = "White"
+Snowfur.eye_color = "Blue"
 
 SnowHare = Cat()
 SnowHare.prefix = "Snow"
@@ -660,6 +800,7 @@ Sootfur = Cat()
 Sootfur.prefix = "Soot"
 Sootfur.suffix = "fur"
 Sootfur.sex = "Male"
+Sootfur.pelt_color = "Gray"
 
 Sorreltail = Cat()
 Sorreltail.prefix = "Sorrel"
@@ -671,6 +812,11 @@ SparrowFur.prefix = "Sparrow"
 SparrowFur.suffix = " Fur"
 SparrowFur.sex = "Female"
 
+SpiderPaw = Cat()
+SpiderPaw.prefix = "Spider"
+SpiderPaw.suffix = " Paw"
+SpiderPaw.sex = "Male"
+
 Splinter = Cat()
 Splinter.sex = "Male"
 
@@ -678,6 +824,7 @@ SpottedFur = Cat()
 SpottedFur.prefix = "Spotted"
 SpottedFur.suffix = " Fur"
 SpottedFur.sex = "Male"
+SpottedFur.pelt_color = "Yellow"
 
 Spottedleaf = Cat()
 Spottedleaf.prefix = "Spotted"
@@ -688,6 +835,8 @@ Squirrelflight = Cat()
 Squirrelflight.prefix = "Squirrel"
 Squirrelflight.suffix = "flight"
 Squirrelflight.sex = "Female"
+Squirrelflight.pelt_color = "Orange and white"
+Squirrelflight.eye_color = "Green"
 
 StarFlower = Cat()
 StarFlower.prefix = "Star"
@@ -709,6 +858,7 @@ StoneSong.sex = "Male"
 
 Storm = Cat()
 Storm.sex = "Female"
+Storm.pelt_color = "Gray"
 
 Stormfur = Cat()
 Stormfur.prefix = "Storm"
@@ -729,9 +879,11 @@ SunShadow = Cat()
 SunShadow.prefix = "Sun"
 SunShadow.suffix = " Shadow"
 SunShadow.sex = "Male"
+SunShadow.pelt_color = "Black"
 
 Swallow = Cat()
 Swallow.sex = "Female"
+Swallow.pelt_color = "Orange and white"
 
 SwiftMinnow = Cat()
 SwiftMinnow.prefix = "Swift"
@@ -741,11 +893,13 @@ SwiftMinnow.sex = "Female"
 Swiftpaw = Cat()
 Swiftpaw.prefix = "Swift"
 Swiftpaw.sex = "Male"
+Swiftpaw.pelt_color = "Black and white"
 
 TallShadow = Cat()
 TallShadow.prefix = "Tall"
 TallShadow.suffix = " Shadow"
 TallShadow.sex = "Female"
+TallShadow.pelt_color = "Black"
 
 Tawnypelt = Cat()
 Tawnypelt.prefix = "Tawny"
@@ -766,11 +920,14 @@ Thorn.sex = "Male"
 Thunder = Cat()
 Thunder.prefix = "Thunder"
 Thunder.sex = "Male"
+Thunder.pelt_color = "Orange and white"
+Thunder.eye_color = "Amber"
 
 Tigerclaw = Cat()
 Tigerclaw.prefix = "Tiger"
 Tigerclaw.suffix = "claw"
 Tigerclaw.sex = "Male"
+Tigerclaw.pelt_color = "Brown tabby"
 
 Tigerheart = Cat()
 Tigerheart.prefix = "Tiger"
@@ -809,6 +966,7 @@ Whitestorm = Cat()
 Whitestorm.prefix = "White"
 Whitestorm.suffix = "storm"
 Whitestorm.sex = "Male"
+Whitestorm.pelt_color = "White"
 
 WhiteTail = Cat()
 WhiteTail.prefix = "White"
@@ -824,11 +982,20 @@ WindRunner = Cat()
 WindRunner.prefix = "Wind"
 WindRunner.suffix = " Runner"
 WindRunner.sex = "Female"
+WindRunner.pelt_color = "Brown and white tabby"
 
 Yellowfang = Cat()
 Yellowfang.prefix = "Yellow"
 Yellowfang.suffix = "fang"
 Yellowfang.sex = "Female"
+Yellowfang.pelt_color = "Gray"
+Yellowfang.eye_color = "Amber"
+
+YewTail = Cat()
+YewTail.prefix = "Yew"
+YewTail.suffix = " Tail"
+YewTail.sex = "Male"
+YewTail.pelt_color = "Cream and brown"
 
 #Cat family trees
 
@@ -837,6 +1004,8 @@ AcornFur.father = JackdawsCry
 AcornFur.siblings = [LightningTail]
 Alder.mother = Misty
 Alder.siblings = [Birch]
+AppleBlossom.mother = Gooseberry
+AppleBlossom.siblings = [SnailShell]
 Beech.siblings = [FernLeaf]
 Berrynose.mother = Daisy
 Birch.mother = Misty
@@ -846,18 +1015,24 @@ BlackEar.father = GrayWing
 BlackEar.siblings = [SilverStripe, WhiteTail]
 Bluefur.mother = Moonflower
 Bluefur.siblings = [Snowfur]
+BlueWhisker.mother = MothFlight
+BlueWhisker.father = Micah
+BlueWhisker.siblings = [BubblingStream, HoneyPelt, SpiderPaw]
 Bramble.mother = Milkweed
-Bramble.siblings = [Clover, Thistle]
+Bramble.siblings = [Clover, HazelBurrow, MorningFire, ShiveringRose, Thistle]
 Brambleclaw.mother = Goldenflower
 Brambleclaw.father = Tigerclaw
 Brambleclaw.siblings = [Hawkfrost, Mothwing, Tawnypelt]
 Breezepelt.father = Crowfeather
 Breezepelt.siblings = [Hollyleaf, Jayfeather, Lionblaze]
+BubblingStream.mother = MothFlight
+BubblingStream.father = Micah
+BubblingStream.siblings = [BlueWhisker, HoneyPelt, SpiderPaw]
 ClearSky.mother = QuietRain
 ClearSky.siblings = [FlutteringBird, GrayWing, JaggedPeak]
 Cloudtail.mother = Princess
 Clover.mother = Milkweed
-Clover.siblings = [Bramble, Thistle]
+Clover.siblings = [Bramble, HazelBurrow, MorningFire, ShiveringRose, Thistle]
 Cricket.siblings = [Slate]
 CrowMuzzle.mother = DewyLeaf
 CrowMuzzle.father = MoonShadow
@@ -865,6 +1040,9 @@ CrowMuzzle.siblings = [DancingLeaf, FallingDusk, MeltingIce, MorningStar, SunSha
 DancingLeaf.mother = DewyLeaf
 DancingLeaf.father = MoonShadow
 DancingLeaf.siblings = [CrowMuzzle, FallingDusk, MeltingIce, MorningStar, SunShadow]
+DanglingLeaf.mother = JuniperBranch
+DanglingLeaf.father = RavenPelt
+DanglingLeaf.siblings = [DuskNose, ShadePelt]
 DewNose.mother = Holly
 DewNose.father = JaggedPeak
 DewNose.siblings = [EagleFeather, StormPelt]
@@ -875,6 +1053,9 @@ Dovewing.siblings = [Ivypool]
 Drizzle.mother = DawnMist
 Drizzle.father = MossTail
 Drizzle.siblings = [PineNeedle]
+DuskNose.mother = JuniperBranch
+DuskNose.father = RavenPelt
+DuskNose.siblings = [DanglingLeaf, ShadePelt]
 DustMuzzle.mother = WindRunner
 DustMuzzle.father = GorseFur
 DustMuzzle.siblings = [Emberkit, MorningWhisker, MothFlight]
@@ -907,9 +1088,15 @@ GrayWing.siblings = [ClearSky, FlutteringBird, JaggedPeak]
 Hawkfrost.mother = Sasha
 Hawkfrost.father = Tigerclaw
 Hawkfrost.siblings = [Brambleclaw, Mothwing, Tawnypelt]
+HazelBurrow.mother = Milkweed
+HazelBurrow.father = Leaf
+HazelBurrow.siblings = [Bramble, Clover, MorningFire, ShiveringRose, Thistle]
 Hollyleaf.mother = Leafpool
 Hollyleaf.father = Crowfeather
 Hollyleaf.siblings = [Breezepelt, Jayfeather, Lionblaze]
+HoneyPelt.mother = MothFlight
+HoneyPelt.father = Micah
+HoneyPelt.siblings = [BlueWhisker, BubblingStream, SpiderPaw]
 Ivypool.siblings = [Dovewing]
 JackdawsCry.siblings = [FallingFeather]
 JaggedPeak.mother = QuietRain
@@ -937,6 +1124,9 @@ MoonShadow.siblings = [TallShadow]
 Mosskit.mother = Bluefur
 Mosskit.father = Oakheart
 Mosskit.siblings = [Mistyfoot, Stonefur]
+MorningFire.mother = Milkweed
+MorningFire.father = Leaf
+MorningFire.siblings = [Bramble, Clover, HazelBurrow, ShiveringRose, Thistle]
 MorningStar.mother = DewyLeaf
 MorningStar.father = SharpHail
 MorningStar.siblings = [CrowMuzzle, DancingLeaf, FallingDusk, MeltingIce, SunShadow]
@@ -965,11 +1155,19 @@ Princess.siblings = [Fireheart]
 QuietRain.children = [ClearSky, FlutteringBird, GrayWing, JaggedPeak]
 RainsweptFlower.father = ShadedMoss
 ShadedMoss.children = [RainsweptFlower]
+ShadePelt.mother = JuniperBranch
+ShadePelt.father = RavenPelt
+ShadePelt.siblings = [DanglingLeaf, DuskNose]
+ShiveringRose.mother = Milkweed
+ShiveringRose.father = Leaf
+ShiveringRose.siblings = [Bramble, Clover, HazelBurrow, MorningFire, Thistle]
 ShyFawn.children = [LionsRoar]
 SilverStripe.mother = Slate
 SilverStripe.father = GrayWing
 SilverStripe.siblings = [BlackEar, WhiteTail]
 Slate.siblings = [Cricket]
+SnailShell.mother = Gooseberry
+SnailShell.siblings = [AppleBlossom]
 Snowfur.mother = Moonflower
 Snowfur.siblings = [Bluefur]
 Sootfur.siblings = [Sorreltail]
@@ -977,6 +1175,9 @@ Sorreltail.siblings = [Sootfur]
 SparrowFur.mother = TurtleTail
 SparrowFur.father = Tom
 SparrowFur.siblings = [OwlEyes, PebbleHeart]
+SpiderPaw.mother = MothFlight
+SpiderPaw.father = Micah
+SpiderPaw.siblings = [BlueWhisker, BubblingStream, HoneyPelt]
 Squirrelflight.mother = Sandstorm
 Squirrelflight.father = Fireheart
 Squirrelflight.siblings = [Leafpool]
@@ -998,7 +1199,7 @@ Tawnypelt.mother = Goldenflower
 Tawnypelt.father = Tigerclaw
 Tawnypelt.siblings = [Brambleclaw, Hawkfrost, Mothwing]
 Thistle.mother = Milkweed
-Thistle.siblings = [Bramble, Clover]
+Thistle.siblings = [Bramble, Clover, HazelBurrow, MorningFire, ShiveringRose]
 Thunder.mother = Storm
 Thunder.father = ClearSky
 Tigerheart.mother = Tawnypelt
@@ -2217,7 +2418,7 @@ IvypoolsHeart = Book()
 IvypoolsHeart.title = "Ivypool's Heart"
 IvypoolsHeart.series = "Super Editions"
 
-Publishing_order = [ IntoTheWild, FireAndIce, ForestOfSecrets, RisingStorm, ADangerousPath, TheDarkestHour, Midnight, Moonrise,
+Publishing_order = [IntoTheWild, FireAndIce, ForestOfSecrets, RisingStorm, ADangerousPath, TheDarkestHour, Midnight, Moonrise,
                      Dawn, Starlight, Twilight, Sunset, TheSight, TheLostWarrior, FirestarsQuest, DarkRiver, WarriorsRefuge,
                      Outcast, WarriorsReturn, TheRiseOfScourge, Eclipse, IntoTheWoods, LongShadows, EscapeFromTheForest,
                      Sunrise, ReturnToTheClans, BluestarsProphecy, TheFourthApprentice, ShatteredPeace, FadingEchoes,
@@ -2231,10 +2432,10 @@ Publishing_order = [ IntoTheWild, FireAndIce, ForestOfSecrets, RisingStorm, ADan
                      TawnypeltsClan, ShadowstarsLife, SquirrelflightsHope, TheSilentThaw, VeilOfShadows, PebbleshinesKits, TreesRoots,
                      MothwingsSecret, AShadowInRiverClan, GraystripesVow, DarknessWithin, ThePlaceOfNoStars, DaisysKin, SpotfursRebellion,
                      BlackfootsReckoning, WindsOfChange, LeopardstarsHonor, ALightInTheMist, River, ExileFromShadowClan, OnestarsConfession,
-                     Sky, Shadow, RiverstarsHome, AThiefInThunderClan, Thunder, Wind, IvypoolsHeart ]
+                     Sky, Shadow, RiverstarsHome, AThiefInThunderClan, Thunder, Wind, IvypoolsHeart]
 
-Timeline = [ TheSunTrail, TheDeathOfBrightStream, ThunderRising, TheFirstBattle, TheBlazingStar, AForestDivided, PathOfStars,
-             MothFlightsVision, ThunderstarsEcho, ShadowstarsLife, CloudstarsJourney, MapleshadesVengeance, PinestarsChoice,
+Timeline = [TheSunTrail, ThunderRising, TheFirstBattle, TheBlazingStar, AForestDivided, PathOfStars,
+             MothFlightsVision, RiverstarsHome, ThunderstarsEcho, ShadowstarsLife, CloudstarsJourney, MapleshadesVengeance, PinestarsChoice,
              GoosefeathersCurse, TallstarsRevenge, CrookedstarsPromise, BluestarsProphecy, TheRiseOfScourge, YellowfangsSecret,
              LeopardstarsHonor, SpottedleafsHeart, RedtailsDebt, IntoTheWild, FireAndIce, ForestOfSecrets, TigerclawsFury, TheEldersConcern,
              RisingStorm, IntoTheWoods, EscapeFromTheForest, ADangerousPath, TheDarkestHour, BlackfootsReckoning, ReturnToTheClans,
@@ -2245,51 +2446,51 @@ Timeline = [ TheSunTrail, TheDeathOfBrightStream, ThunderRising, TheFirstBattle,
              MistystarsOmen, FadingEchoes, RavenpawsFarewell, NightWhispers, SignOfTheMoon, TheForgottenWarrior, TheLastHope,
              DovewingsSilence, CrowfeathersTrial, TreesRoots, BramblestarsStorm, HawkwingsJourney, PebbleshinesKits, TheApprenticesQuest,
              ThunderAndShadow, ShatteredSky, DarkestNight, TigerheartsShadow, RiverOfFire, TawnypeltsClan, TheRagingStorm,
-             SquirrelflightsHope, LostStars, TheSilentThaw, VeilOfShadows, DaisysKin, DarknessWithin, SpotfursRebellion, ALightInTheMist ]
+             SquirrelflightsHope, LostStars, TheSilentThaw, VeilOfShadows, DaisysKin, DarknessWithin, SpotfursRebellion, ALightInTheMist]
 
-The_Prophecies_begin = [ IntoTheWild, FireAndIce, ForestOfSecrets, RisingStorm, ADangerousPath, TheDarkestHour ]
+The_Prophecies_begin = [IntoTheWild, FireAndIce, ForestOfSecrets, RisingStorm, ADangerousPath, TheDarkestHour]
 
-The_New_Prophecy = [ Midnight, Moonrise, Dawn, Starlight, Twilight, Sunset ]
+The_New_Prophecy = [Midnight, Moonrise, Dawn, Starlight, Twilight, Sunset]
 
-The_Power_of_Three = [ TheSight, DarkRiver, Outcast, Eclipse, LongShadows, Sunrise ]
+The_Power_of_Three = [TheSight, DarkRiver, Outcast, Eclipse, LongShadows, Sunrise]
 
-Omen_of_the_Stars = [ TheFourthApprentice, FadingEchoes, NightWhispers, SignOfTheMoon, TheForgottenWarrior, TheLastHope ]
+Omen_of_the_Stars = [TheFourthApprentice, FadingEchoes, NightWhispers, SignOfTheMoon, TheForgottenWarrior, TheLastHope]
 
-Dawn_of_the_Clans = [ TheSunTrail, ThunderRising, TheFirstBattle, TheBlazingStar, AForestDivided, PathOfStars ]
+Dawn_of_the_Clans = [TheSunTrail, ThunderRising, TheFirstBattle, TheBlazingStar, AForestDivided, PathOfStars]
 
-A_Vision_of_Shadows = [ TheApprenticesQuest, ThunderAndShadow, ShatteredSky, DarkestNight, RiverOfFire, TheRagingStorm ]
+A_Vision_of_Shadows = [TheApprenticesQuest, ThunderAndShadow, ShatteredSky, DarkestNight, RiverOfFire, TheRagingStorm]
 
-The_Broken_Code = [ LostStars, TheSilentThaw, VeilOfShadows, DarknessWithin, ThePlaceOfNoStars, ALightInTheMist ]
+The_Broken_Code = [LostStars, TheSilentThaw, VeilOfShadows, DarknessWithin, ThePlaceOfNoStars, ALightInTheMist]
 
-A_Starless_Clan = [ River, Sky, Shadow, Thunder, Wind ]
+A_Starless_Clan = [River, Sky, Shadow, Thunder, Wind]
 
-Super_Editions = [ FirestarsQuest, BluestarsProphecy, SkyClansDestiny, CrookedstarsPromise, YellowfangsSecret, TallstarsRevenge,
+Super_Editions = [FirestarsQuest, BluestarsProphecy, SkyClansDestiny, CrookedstarsPromise, YellowfangsSecret, TallstarsRevenge,
                    BramblestarsStorm, MothFlightsVision, HawkwingsJourney, TigerheartsShadow, CrowfeathersTrial, SquirrelflightsHope,
-                   GraystripesVow, LeopardstarsHonor, OnestarsConfession, RiverstarsHome, IvypoolsHeart ]
+                   GraystripesVow, LeopardstarsHonor, OnestarsConfession, RiverstarsHome, IvypoolsHeart]
 
-Graystripes_Adventure = [ TheLostWarrior, WarriorsRefuge, WarriorsReturn ]
+Graystripes_Adventure = [TheLostWarrior, WarriorsRefuge, WarriorsReturn]
 
-Tigerstar_and_Sasha = [ IntoTheWoods, EscapeFromTheForest, ReturnToTheClans ]
+Tigerstar_and_Sasha = [IntoTheWoods, EscapeFromTheForest, ReturnToTheClans]
 
-Ravenpaws_Path = [ ShatteredPeace, AClanInNeed, TheHeartOfAWarrior ]
+Ravenpaws_Path = [ShatteredPeace, AClanInNeed, TheHeartOfAWarrior]
 
-SkyClan_and_the_Stranger = [ TheRescue, BeyondTheCode, AfterTheFlood ]
+SkyClan_and_the_Stranger = [TheRescue, BeyondTheCode, AfterTheFlood]
 
-Mangas = [ TheRiseOfScourge, AShadowInRiverClan, WindsOfChange ]
+Mangas = [TheRiseOfScourge, AShadowInRiverClan, WindsOfChange]
 
-The_Untold_Stories = [ HollyleafsStory, MistystarsOmen, CloudstarsJourney ]
+The_Untold_Stories = [HollyleafsStory, MistystarsOmen, CloudstarsJourney]
 
-Tales_from_the_Clans = [ TigerclawsFury, LeafpoolsWish, DovewingsSilence ]
+Tales_from_the_Clans = [TigerclawsFury, LeafpoolsWish, DovewingsSilence]
 
-Shadows_of_the_Clans = [ MapleshadesVengeance, GoosefeathersCurse, RavenpawsFarewell ]
+Shadows_of_the_Clans = [MapleshadesVengeance, GoosefeathersCurse, RavenpawsFarewell]
 
-Legends_of_the_Clans = [ SpottedleafsHeart, PinestarsChoice, ThunderstarsEcho]
+Legends_of_the_Clans = [SpottedleafsHeart, PinestarsChoice, ThunderstarsEcho]
 
-Path_of_a_Warrior = [ RedtailsDebt, TawnypeltsClan, ShadowstarsLife]
+Path_of_a_Warrior = [RedtailsDebt, TawnypeltsClan, ShadowstarsLife]
 
-A_Warriors_Spirit = [ PebbleshinesKits, TreesRoots, MothwingsSecret]
+A_Warriors_Spirit = [PebbleshinesKits, TreesRoots, MothwingsSecret]
 
-A_Warriors_Choice = [ DaisysKin, SpotfursRebellion, BlackfootsReckoning]
+A_Warriors_Choice = [DaisysKin, SpotfursRebellion, BlackfootsReckoning]
 
 #Events in chronological order
 
@@ -2316,6 +2517,12 @@ for cat in Mountain_Tribe.current_kittens:
 for cat in Mountain_Tribe.current_queens:
     cat.rank = "Queen"
 RiverRipple_Camp.current_leader = RiverRipple
+RiverRipple.rank = "Leader"
+
+TheSunTrail.appearances = [BrightStream, ClearSky, CloudSpots, DappledPelt, DewyLeaf, FallingFeather, FlutteringBird, Fox, Frost, GorseFur, GrayWing,
+                                  HalfMoon, HawkSwoop, HollowTree, JackdawsCry, JaggedPeak, Leaf, LionsRoar, MistyWater, MoonShadow, Petal, QuickWater,
+                                  QuietRain, RainsweptFlower, RiverRipple, ShadedMoss, SharpHail, ShatteredIce, SilverFrost, SnowHare, StoneSong,
+                                  Storm, TallShadow, Thunder, TurtleTail, TwistedBranch, WindRunner]
 
 TheSunTrail.dies(FlutteringBird)
 TheSunTrail.joins_clan(FlutteringBird, Star_Clan, "Kitten")
@@ -2379,7 +2586,7 @@ TheSunTrail.joins_clan(JaggedPeak, TallShadow_Camp, None)
 TheSunTrail.leaves_clan(Storm)
 TheSunTrail.dies(DancingLeaf)
 
-TheSunTrail.dies(Fox)
+TheSunTrail.kills(GrayWing, Fox)
 TheSunTrail.joins_clan(Fox, Star_Clan, None)
 
 TheSunTrail.is_born(Thunder)
@@ -2389,6 +2596,11 @@ TheSunTrail.joins_clan(Storm, Star_Clan, None)
 TheSunTrail.joins_clan(Thunder, TallShadow_Camp, "Kitten")
 
 #Thunder Rising
+
+ThunderRising.appearances = [AcornFur, Alder, Birch, Bumble, ClearSky, GrayWing, FallingFeather, Fircone, Frost, HawkSwoop, JackdawsCry,
+                             JaggedPeak, Misty, MoonShadow,
+                             Nettle, OwlEyes, PebbleHeart, Petal, RiverRipple,
+                             SparrowFur, TallShadow, Thunder, TurtleTail, WindRunner]
 
 LightningTail.affiliation = TallShadow_Camp
 AcornFur.affiliation = TallShadow_Camp
@@ -2423,7 +2635,7 @@ ThunderRising.joins_clan(Fircone, ClearSky_Camp, None)
 ThunderRising.joins_clan(Nettle,ClearSky_Camp, None)
 ThunderRising.is_born(Alder)
 ThunderRising.is_born(Birch)
-ThunderRising.dies(Misty)
+ThunderRising.kills(ClearSky, Misty)
 ThunderRising.dies(Bumble)
 ThunderRising.joins_clan(Alder, ClearSky_Camp, "Kitten")
 ThunderRising.joins_clan(Birch, ClearSky_Camp, "Kitten")
@@ -2432,6 +2644,11 @@ ThunderRising.leaves_clan(Frost)
 ThunderRising.leaves_clan(Thunder)
 
 #The First Battle
+
+TheFirstBattle.appearances = [AcornFur, BrightStream, ClearSky, Dew, DustMuzzle, Emberkit, FallingFeather, Fircone, Frost, GorseFur,
+                              GrayWing, HawkSwoop, JackdawsCry, JaggedPeak, LightningTail, MorningWhisker, MothFlight,
+                              OwlEyes, PebbleHeart, Petal, QuickWater, RainsweptFlower, RiverRipple, ShadedMoss, Snake, SparrowFur, Storm, TallShadow,
+                              Thorn, Thunder, Tom, TurtleTail, WindRunner]
 
 HawkSwoop.previous_ranks.append(HawkSwoop.rank)
 HawkSwoop.rank = None
@@ -2458,20 +2675,26 @@ TheFirstBattle.joins_clan(Emberkit, Star_Clan, "Kitten")
 TheFirstBattle.dies(TurtleTail)
 TheFirstBattle.joins_clan(TurtleTail, Star_Clan, None)
 
-TheFirstBattle.dies(Fircone)
+TheFirstBattle.kills(TallShadow, Fircone)
 TheFirstBattle.joins_clan(Fircone, Star_Clan, None)
 TheFirstBattle.dies(Frost)
 TheFirstBattle.joins_clan(Frost, Star_Clan, None)
-TheFirstBattle.dies(RainsweptFlower)
+TheFirstBattle.kills(ClearSky, RainsweptFlower)
 TheFirstBattle.joins_clan(RainsweptFlower, Star_Clan, None)
-TheFirstBattle.dies(JackdawsCry)
+TheFirstBattle.kills(FallingFeather, JackdawsCry)
 TheFirstBattle.joins_clan(JackdawsCry, Star_Clan, None)
-TheFirstBattle.dies(FallingFeather)
+TheFirstBattle.kills(JackdawsCry, FallingFeather)
 TheFirstBattle.joins_clan(FallingFeather, Star_Clan, None)
 TheFirstBattle.dies(HawkSwoop)
 TheFirstBattle.joins_clan(HawkSwoop, Star_Clan, None)
 
 #The Blazing Star
+
+TheBlazingStar.appearances = [AcornFur, ClearSky, Cricket, DewNose, DustMuzzle, EagleFeather, GorseFur, GrayWing,
+                              HalfMoon, Holly, JaggedPeak, LightningTail, MouseEar,
+                              MorningWhisker, MothFlight, MudPaws, OneEye, OwlEyes, PebbleHeart, Petal,
+                              QuietRain, RiverRipple, Snake, SparrowFur, StarFlower, StormPelt, SunShadow,
+                              TallShadow, Thunder, Tom, WindRunner]
 
 TheBlazingStar.leaves_clan(AcornFur)
 TheBlazingStar.joins_clan(AcornFur, ClearSky_Camp, None)
@@ -2482,7 +2705,7 @@ TheBlazingStar.joins_clan(MudPaws, TallShadow_Camp, None)
 TheBlazingStar.joins_clan(Tom, ClearSky_Camp, None)
 TheBlazingStar.joins_clan(OneEye, ClearSky_Camp, None)
 
-TheBlazingStar.dies(Tom)
+TheBlazingStar.kills(OneEye, Tom)
 TheBlazingStar.leaves_clan(OneEye)
 
 TheBlazingStar.dies(MorningWhisker)
@@ -2498,7 +2721,7 @@ TheBlazingStar.joins_clan(MothFlight, WindRunner_Camp, "Kitten")
 TheBlazingStar.dies(Cricket)
 TheBlazingStar.joins_clan(Slate, WindRunner_Camp, None)
 
-TheBlazingStar.dies(OneEye)
+TheBlazingStar.kills(Thunder, OneEye)
 TheBlazingStar.dies(Petal)
 TheBlazingStar.joins_clan(Petal, Star_Clan, None)
 TheBlazingStar.leaves_clan(Snake)
@@ -2513,9 +2736,16 @@ TheBlazingStar.is_born(StormPelt)
 
 #A Forest Divided
 
+AForestDivided.appearances = [AcornFur, Blossom, ClearSky, CloudSpots, Clover, DappledPelt, DewNose, EagleFeather,
+                              FernLeaf, GorseFur, GrayWing,
+                              Holly, JaggedPeak, Leaf, LightningTail, Milkweed, MouseEar, MudPaws, OwlEyes,
+                              PebbleHeart, PinkEyes, QuickWater, QuietRain,
+                              ReedTail, RiverRipple, ShatteredIce, Slash, Slate, SparrowFur, StarFlower, StormPelt,
+                              SunShadow, SwiftMinnow, TallShadow, Thistle, Thunder, WindRunner]
+
 AForestDivided.joins_clan(Blossom, ClearSky_Camp, None)
 AForestDivided.joins_clan(PinkEyes, ClearSky_Camp, None)
-AForestDivided.joins_clan(ReedTail, WindRunner_Camp, "Medicine Cat")
+AForestDivided.joins_clan(ReedTail, WindRunner_Camp, None)
 AForestDivided.joins_clan(SwiftMinnow, WindRunner_Camp, None)
 
 for cat in TallShadow_Camp.current_members:
@@ -2523,7 +2753,7 @@ for cat in TallShadow_Camp.current_members:
 AForestDivided.joins_clan(LightningTail, ClearSky_Camp, None)
 AForestDivided.joins_clan(OwlEyes, ClearSky_Camp, None)
 AForestDivided.joins_clan(SparrowFur, ClearSky_Camp, None)
-AForestDivided.joins_clan(CloudSpots, ClearSky_Camp, "Medicine Cat")
+AForestDivided.joins_clan(CloudSpots, ClearSky_Camp, None)
 AForestDivided.joins_clan(Thunder, ClearSky_Camp, None)
 AForestDivided.joins_clan(Holly, Pine_Forest_Camp, "Queen")
 AForestDivided.joins_clan(JaggedPeak, Pine_Forest_Camp, None)
@@ -2533,7 +2763,7 @@ AForestDivided.joins_clan(StormPelt, Pine_Forest_Camp, "Kitten")
 AForestDivided.joins_clan(GrayWing, Pine_Forest_Camp, None)
 AForestDivided.joins_clan(MudPaws, Pine_Forest_Camp, None)
 AForestDivided.joins_clan(MouseEar, Pine_Forest_Camp, None)
-AForestDivided.joins_clan(PebbleHeart, Pine_Forest_Camp, "Medicine Cat")
+AForestDivided.joins_clan(PebbleHeart, Pine_Forest_Camp, None)
 AForestDivided.joins_clan(TallShadow, Pine_Forest_Camp, "Leader")
 AForestDivided.joins_clan(DappledPelt, RiverRipple_Camp, None)
 AForestDivided.joins_clan(ShatteredIce, RiverRipple_Camp, None)
@@ -2556,7 +2786,7 @@ AForestDivided.joins_clan(OwlEyes, Thunder_Camp, None)
 AForestDivided.joins_clan(LightningTail, Thunder_Camp, None)
 AForestDivided.joins_clan(Leaf, Thunder_Camp, None)
 AForestDivided.joins_clan(PinkEyes, Thunder_Camp, None)
-AForestDivided.joins_clan(CloudSpots, Thunder_Camp, "Medicine Cat")
+AForestDivided.joins_clan(CloudSpots, Thunder_Camp, None)
 AForestDivided.leaves_clan(Milkweed)
 AForestDivided.leaves_clan(Clover)
 AForestDivided.leaves_clan(Thistle)
@@ -2574,6 +2804,12 @@ AForestDivided.leaves_clan(GrayWing)
 AForestDivided.joins_clan(GrayWing, WindRunner_Camp, None)
 
 #Path of Stars
+
+PathOfStars.appearances = [AcornFur, Bee, Beech, Beetle, BlackEar, Blossom, ClearSky, DawnMist, DewNose, DewPetal, Drizzle,
+                           EagleFeather, Ember, FernLeaf, FlowerFoot, Frog, GorseFur, GrayWing, Holly, JaggedPeak, JuniperBranch,
+                           Leaf, LightningTail, Milkweed, MossTail, PineNeedle, RavenPelt, RedClaw, ReedTail, RiverRipple, SilverStripe, Slash,
+                           Slate, Snake, SpottedFur, StarFlower, Stone, StormPelt, Swallow, SwiftMinnow, TallShadow, Thunder, TinyBranch,
+                           VioletDawn, WhiteTail, WindRunner]
 
 PathOfStars.joins_clan(SpottedFur, WindRunner_Camp, None)
 
@@ -2606,6 +2842,17 @@ PathOfStars.is_born(BlackEar)
 
 PathOfStars.leaves_clan(Bee)
 
+PathOfStars.changes_name(FernLeaf, "Fern", "Fern Leaf")
+PathOfStars.changes_name(WillowTail, "Willow", "Willow Tail")
+PathOfStars.changes_name(RedClaw, "Red", "Red Claw")
+PathOfStars.changes_name(VioletDawn, "Violet", "Violet Dawn")
+PathOfStars.changes_name(DawnMist, "Dawn", "Dawn Mist")
+PathOfStars.changes_name(MossTail, "Moss", "Moss Tail")
+PathOfStars.changes_name(PineNeedle, "Pine", "Pine Needle")
+PathOfStars.changes_name(RavenPelt, "Raven", "Raven Pelt")
+PathOfStars.changes_name(JuniperBranch, "Juniper", "Juniper Branch")
+PathOfStars.changes_name(ReedTail, "Reed", "Reed Tail")
+PathOfStars.changes_name(SwiftMinnow, "Minnow", "Swift Minnow")
 PathOfStars.leaves_clan(Ember)
 
 for cat in WindRunner_Camp.current_members:
@@ -2630,3 +2877,78 @@ for cat in ClearSky_Camp.current_members:
     PathOfStars.joins_clan(cat, Sky_Clan, rank)
 PathOfStars.dies(GrayWing)
 PathOfStars.joins_clan(GrayWing, Star_Clan, None)
+
+#Moth Flight's Vision
+
+MothFlightsVision.appearances = [AcornFur, AppleBlossom, BlackEar, Blossom, BlueWhisker, BubblingStream, ClearSky, CloudSpots,
+                                 DanglingLeaf, DappledPelt, DawnMist, DewNose, Drizzle, DuskNose, DustMuzzle, EagleFeather, Emberkit, FernLeaf, GorseFur, GrayWing,
+                                 HalfMoon, HazelBurrow, Holly, HoneyPelt, JaggedPeak, JuniperBranch, LightningTail, Micah, Milkweed, MorningFire,
+                                 MorningWhisker, MossTail, MothFlight, Night, OwlEyes, PebbleHeart, PineNeedle, PinkEyes, QuietRain, RavenPelt, RedClaw,
+                                 ReedTail, RiverRipple, Rocky, ShadePelt, ShatteredIce, ShiveringRose, SilverStripe, Slate, SnailShell, SparrowFur, SpiderPaw,
+                                 SpottedFur, StarFlower, StormPelt, SunShadow, SwiftMinnow, TallShadow, Thunder, TinyBranch, TurtleTail,
+                                 WhiteTail, WillowTail, WindRunner]
+
+MothFlightsVision.joins_clan(Rocky, Wind_Clan, None)
+MothFlightsVision.leaves_clan(JaggedPeak)
+MothFlightsVision.joins_clan(JaggedPeak, Wind_Clan, None)
+MothFlightsVision.leaves_clan(Holly)
+MothFlightsVision.joins_clan(Holly, Wind_Clan, None)
+MothFlightsVision.leaves_clan(StormPelt)
+MothFlightsVision.joins_clan(StormPelt, Wind_Clan, None)
+MothFlightsVision.leaves_clan(DewNose)
+MothFlightsVision.joins_clan(DewNose, Wind_Clan, None)
+MothFlightsVision.leaves_clan(EagleFeather)
+MothFlightsVision.joins_clan(EagleFeather, Wind_Clan, None)
+MothFlightsVision.joins_clan(Gooseberry, Thunder_Clan, "Queen")
+MothFlightsVision.joins_clan(YewTail, Thunder_Clan, None)
+MothFlightsVision.joins_clan(AppleBlossom, Thunder_Clan, "Kitten")
+MothFlightsVision.joins_clan(SnailShell, Thunder_Clan, "Kitten")
+MothFlightsVision.is_born(HazelBurrow)
+MothFlightsVision.is_born(MorningFire)
+MothFlightsVision.is_born(ShiveringRose)
+
+MothFlightsVision.becomes_medicine_cat(MothFlight)
+MothFlightsVision.becomes_medicine_cat(CloudSpots)
+MothFlightsVision.becomes_medicine_cat(DappledPelt)
+MothFlightsVision.becomes_medicine_cat(PebbleHeart)
+MothFlightsVision.joins_clan(Micah, Sky_Clan, "Medicine Cat")
+
+MothFlightsVision.becomes_queen(Milkweed)
+MothFlightsVision.becomes_queen(MothFlight)
+
+MothFlightsVision.dies(Micah)
+MothFlightsVision.joins_clan(Micah, Star_Clan, None)
+MothFlightsVision.becomes_medicine_cat(AcornFur)
+MothFlightsVision.is_born(DanglingLeaf)
+MothFlightsVision.is_born(DuskNose)
+MothFlightsVision.is_born(ShadePelt)
+
+MothFlightsVision.is_born(BlueWhisker)
+MothFlightsVision.is_born(BubblingStream)
+MothFlightsVision.is_born(HoneyPelt)
+MothFlightsVision.is_born(SpiderPaw)
+
+MothFlightsVision.dies(TinyBranch)
+MothFlightsVision.joins_clan(TinyBranch, Star_Clan, None)
+
+MothFlightsVision.kills(ClearSky, WillowTail)
+MothFlightsVision.joins_clan(WillowTail, Star_Clan, None)
+
+MothFlightsVision.becomes_leader(WindRunner)
+MothFlightsVision.becomes_leader(Thunder)
+MothFlightsVision.becomes_leader(RiverRipple)
+MothFlightsVision.becomes_leader(ClearSky)
+MothFlightsVision.becomes_leader(TallShadow)
+
+MothFlightsVision.leaves_clan(BlueWhisker)
+MothFlightsVision.joins_clan(BlueWhisker, Thunder_Clan, "Kitten")
+MothFlightsVision.leaves_clan(SpiderPaw)
+MothFlightsVision.joins_clan(SpiderPaw, River_Clan, "Kitten")
+MothFlightsVision.leaves_clan(BubblingStream)
+MothFlightsVision.joins_clan(BubblingStream, Shadow_Clan, "Kitten")
+MothFlightsVision.leaves_clan(HoneyPelt)
+MothFlightsVision.joins_clan(HoneyPelt, Sky_Clan, "Kitten")
+
+#Riverstar's Home
+
+RiverstarsHome.appearances = [RiverRipple]
