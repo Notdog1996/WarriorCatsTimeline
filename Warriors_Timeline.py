@@ -88,6 +88,12 @@ Beech = Cat()
 Beech.sex = "Female"
 Beech.pelt_color = "Brown tabby"
 
+BeechTail = Cat()
+BeechTail.prefix = "Beech"
+BeechTail.suffix = " Tail"
+BeechTail.sex = "Female"
+BeechTail.pelt_color = "Pale orange tabby"
+
 Beetle = Cat()
 Beetle.sex = "Male"
 
@@ -341,6 +347,10 @@ FallingFeather.suffix = " Feather"
 FallingFeather.sex = "Female"
 FallingFeather.pelt_color = "Gray and white"
 
+FeatherEar = Cat()
+FeatherEar.prefix = "Feather"
+FeatherEar.suffix = " Ear"
+
 Feathertail = Cat()
 Feathertail.prefix = "Feather"
 Feathertail.suffix = "tail"
@@ -523,11 +533,19 @@ Leafpool.suffix = "pool"
 Leafpool.sex = "Female"
 Leafpool.pelt_color = "Brown and white tabby"
 
+LightningStripe = Cat()
+LightningStripe.prefix = "Lightning"
+LightningStripe.suffix = " Stripe"
+LightningStripe.sex = "Female"
+LightningStripe.pelt_color = "Orange and white tabby"
+LightningStripe.eye_color = "Amber"
+
 LightningTail = Cat()
 LightningTail.prefix = "Lightning"
 LightningTail.suffix = " Tail"
 LightningTail.sex = "Male"
 LightningTail.pelt_color = "Black"
+LightningTail.eye_color = "Green"
 
 Lionblaze = Cat()
 Lionblaze.prefix = "Lion"
@@ -695,6 +713,12 @@ OwlEyes.suffix = " Eyes"
 OwlEyes.sex = "Male"
 OwlEyes.pelt_color = "Gray"
 
+PatchPelt = Cat()
+PatchPelt.prefix = "Patch"
+PatchPelt.suffix = " Pelt"
+PatchPelt.sex = "Male"
+PatchPelt.pelt_color = "Tortoiseshell"
+
 PebbleHeart = Cat()
 PebbleHeart.prefix = "Pebble"
 PebbleHeart.suffix = " Heart"
@@ -833,6 +857,10 @@ ShatteredIce.prefix = "Shattered"
 ShatteredIce.suffix = " Ice"
 ShatteredIce.sex = "Male"
 
+ShellClaw = Cat()
+ShellClaw.prefix = "Shell"
+ShellClaw.suffix = " Claw"
+
 Shine = Cat()
 Shine.sex = "Female"
 Shine.pelt_color = "Diluted tortoiseshell"
@@ -878,6 +906,12 @@ Slash.sex = "Male"
 Slate = Cat()
 Slate.sex = "Female"
 Slate.pelt_color = "Dark gray"
+
+SleekFur = Cat()
+SleekFur.prefix = "Sleek"
+SleekFur.suffix = " Fur"
+SleekFur.sex = "Male"
+SleekFur.pelt_color = "Gray"
 
 Snail = Cat()
 Snail.sex = "Male"
@@ -1146,6 +1180,9 @@ ArcShadow.mother = Finch
 ArcShadow.father = RiverRipple
 ArcShadow.siblings = [DustSmoke, RippleShine]
 Beech.siblings = [FernLeaf]
+BeechTail.mother = Milkweed
+BeechTail.father = Leaf
+BeechTail.siblings = [Bramble, Clover, HazelBurrow, MorningFire, PatchPelt, ShiveringRose, Thistle]
 Berrynose.mother = Daisy
 Birch.mother = Misty
 Birch.siblings = [Alder]
@@ -1158,7 +1195,7 @@ BlueWhisker.mother = MothFlight
 BlueWhisker.father = Micah
 BlueWhisker.siblings = [BubblingStream, HoneyPelt, SpiderPaw]
 Bramble.mother = Milkweed
-Bramble.siblings = [Clover, HazelBurrow, MorningFire, ShiveringRose, Thistle]
+Bramble.siblings = [BeechTail, Clover, HazelBurrow, MorningFire, PatchPelt, ShiveringRose, Thistle]
 Brambleclaw.mother = Goldenflower
 Brambleclaw.father = Tigerclaw
 Brambleclaw.siblings = [Hawkfrost, Mothwing, Tawnypelt]
@@ -1173,7 +1210,7 @@ ClearSky.siblings = [FlutteringBird, GrayWing, JaggedPeak]
 Cleo.children = [Hunter, Scout]
 Cloudtail.mother = Princess
 Clover.mother = Milkweed
-Clover.siblings = [Bramble, HazelBurrow, MorningFire, ShiveringRose, Thistle]
+Clover.siblings = [BeechTail, Bramble, HazelBurrow, MorningFire, PatchPelt, ShiveringRose, Thistle]
 Cricket.siblings = [Slate]
 CrowMuzzle.mother = DewyLeaf
 CrowMuzzle.father = MoonShadow
@@ -1213,6 +1250,9 @@ FallingDusk.mother = DewyLeaf
 FallingDusk.father = SharpHail
 FallingDusk.siblings = [CrowMuzzle, DancingLeaf, MeltingIce, MorningStar, SunShadow]
 FallingFeather.siblings = [JackdawsCry]
+FeatherEar.mother = VioletDawn
+FeatherEar.father = Thunder
+FeatherEar.siblings = [LightningStripe, ShellClaw, SleekFur]
 Feathertail.mother = Silverstream
 Feathertail.father = Graystripe
 Feathertail.siblings = [Stormfur]
@@ -1235,7 +1275,7 @@ Hawkfrost.father = Tigerclaw
 Hawkfrost.siblings = [Brambleclaw, Mothwing, Tawnypelt]
 HazelBurrow.mother = Milkweed
 HazelBurrow.father = Leaf
-HazelBurrow.siblings = [Bramble, Clover, MorningFire, ShiveringRose, Thistle]
+HazelBurrow.siblings = [BeechTail, Bramble, Clover, MorningFire, PatchPelt, ShiveringRose, Thistle]
 Hollyleaf.mother = Leafpool
 Hollyleaf.father = Crowfeather
 Hollyleaf.siblings = [Breezepelt, Jayfeather, Lionblaze]
@@ -1255,6 +1295,9 @@ Jayfeather.siblings = [Breezepelt, Hollyleaf, Lionblaze]
 Leafpool.mother = Sandstorm
 Leafpool.father = Fireheart
 Leafpool.siblings = [Squirrelflight]
+LightningStripe.mother = VioletDawn
+LightningStripe.father = Thunder
+LightningStripe.siblings = [FeatherEar, ShellClaw, SleekFur]
 LightningTail.mother = HawkSwoop
 LightningTail.father = JackdawsCry
 LightningTail.siblings = [AcornFur]
@@ -1275,7 +1318,7 @@ Mosskit.father = Oakheart
 Mosskit.siblings = [Mistyfoot, Stonefur]
 MorningFire.mother = Milkweed
 MorningFire.father = Leaf
-MorningFire.siblings = [Bramble, Clover, HazelBurrow, ShiveringRose, Thistle]
+MorningFire.siblings = [BeechTail, Bramble, Clover, HazelBurrow, PatchPelt, ShiveringRose, Thistle]
 MorningStar.mother = DewyLeaf
 MorningStar.father = SharpHail
 MorningStar.siblings = [CrowMuzzle, DancingLeaf, FallingDusk, MeltingIce, SunShadow]
@@ -1292,6 +1335,9 @@ Night.siblings = [Mist]
 OwlEyes.mother = TurtleTail
 OwlEyes.father = Tom
 OwlEyes.siblings = [PebbleHeart, SparrowFur]
+PatchPelt.mother = Milkweed
+PatchPelt.father = Leaf
+PatchPelt.siblings = [BeechTail, Bramble, Clover, HazelBurrow, MorningFire, ShiveringRose, Thistle]
 PebbleHeart.mother = TurtleTail
 PebbleHeart.father = Tom
 PebbleHeart.siblings = [OwlEyes, SparrowFur]
@@ -1314,14 +1360,20 @@ ShadedMoss.children = [RainsweptFlower]
 ShadePelt.mother = JuniperBranch
 ShadePelt.father = RavenPelt
 ShadePelt.siblings = [DanglingLeaf, DuskNose]
+ShellClaw.mother = VioletDawn
+ShellClaw.father = Thunder
+ShellClaw.siblings = [FeatherEar, LightningStripe, SleekFur]
 ShiveringRose.mother = Milkweed
 ShiveringRose.father = Leaf
-ShiveringRose.siblings = [Bramble, Clover, HazelBurrow, MorningFire, Thistle]
+ShiveringRose.siblings = [BeechTail, Bramble, Clover, HazelBurrow, MorningFire, PatchPelt, Thistle]
 ShyFawn.children = [LionsRoar]
 SilverStripe.mother = Slate
 SilverStripe.father = GrayWing
 SilverStripe.siblings = [BlackEar, WhiteTail]
 Slate.siblings = [Cricket]
+SleekFur.mother = VioletDawn
+SleekFur.father = Thunder
+SleekFur.siblings = [FeatherEar, LightningStripe, ShellClaw]
 SnailShell.mother = Gooseberry
 SnailShell.siblings = [AppleBlossom]
 Snowfur.mother = Moonflower
@@ -1357,7 +1409,7 @@ Tawnypelt.mother = Goldenflower
 Tawnypelt.father = Tigerclaw
 Tawnypelt.siblings = [Brambleclaw, Hawkfrost, Mothwing]
 Thistle.mother = Milkweed
-Thistle.siblings = [Bramble, Clover, HazelBurrow, MorningFire, ShiveringRose]
+Thistle.siblings = [BeechTail, Bramble, Clover, HazelBurrow, MorningFire, PatchPelt, ShiveringRose]
 Thunder.mother = Storm
 Thunder.father = ClearSky
 Tigerheart.mother = Tawnypelt
@@ -3133,6 +3185,7 @@ MothFlightsVision.becomes_leader(RiverRipple)
 MothFlightsVision.becomes_leader(ClearSky)
 MothFlightsVision.becomes_deputy(SparrowFur)
 MothFlightsVision.becomes_leader(TallShadow)
+MothFlightsVision.becomes_deputy(SunShadow)
 
 MothFlightsVision.leaves_clan(BlueWhisker)
 MothFlightsVision.joins_clan(BlueWhisker, Thunder_Clan, "Kitten")
@@ -3169,3 +3222,23 @@ RiverstarsHome.becomes_warrior(PineNeedle)
 RiverstarsHome.is_born(RippleShine)
 RiverstarsHome.is_born(DustSmoke)
 RiverstarsHome.is_born(ArcShadow)
+
+#Thunderstar's Echo
+
+ThunderstarsEcho.appearances = [AppleBlossom, BeechTail, BlueWhisker, ClearSky, CloudSpots, DewPetal, Clover, FeatherEar, HoneyPelt,
+                                Leaf, LightningStripe, LightningTail, MorningFire, MossTail, OwlEyes, PatchPelt, PinkEyes, QuickWater,
+                                RiverRipple, ShellClaw, ShiveringRose, SleekFur, SnailShell, TallShadow, Thistle, Thunder,
+                                VioletDawn, WindRunner]
+
+ThunderstarsEcho.becomes_queen(VioletDawn)
+
+ThunderstarsEcho.dies(Thunder)
+ThunderstarsEcho.dies(LightningTail)
+ThunderstarsEcho.joins_clan(LightningTail, Star_Clan, None)
+
+ThunderstarsEcho.is_born(LightningStripe)
+ThunderstarsEcho.is_born(SleekFur)
+ThunderstarsEcho.is_born(ShellClaw)
+ThunderstarsEcho.is_born(FeatherEar)
+
+ThunderstarsEcho.becomes_deputy(OwlEyes)
